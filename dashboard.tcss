@@ -1,0 +1,133 @@
+/* Trading Dashboard V2 - Textual CSS */
+
+/* ==================== GLOBAL ==================== */
+
+Screen {
+    background: $surface;
+}
+
+/* ==================== STATUS BAR ==================== */
+
+#status-bar {
+    dock: top;
+    height: 1;
+    background: $primary;
+    color: $text;
+    text-style: bold;
+    padding: 0 1;
+}
+
+/* ==================== DAY SUMMARY ==================== */
+
+#day-summary {
+    height: 1;
+    background: $boost;
+    color: $text;
+    padding: 0 1;
+}
+
+/* ==================== TABS ==================== */
+
+#tabs {
+    height: 1fr;
+}
+
+TabbedContent ContentSwitcher {
+    height: 1fr;
+}
+
+TabPane {
+    padding: 0;
+}
+
+/* ==================== MAIN GRID ==================== */
+
+#main-grid {
+    layout: grid;
+    grid-size: 2 1;
+    grid-columns: 3fr 2fr;
+    grid-gutter: 1;
+    padding: 0 1;
+    height: 1fr;
+}
+
+#right-col {
+    layout: vertical;
+    height: 1fr;
+}
+
+/* ==================== HOLDINGS ==================== */
+
+#holdings-box {
+    height: 1fr;
+    border: round $primary;
+    padding: 0 1;
+}
+
+#holdings-box > Static {
+    text-style: bold;
+    color: $primary;
+    height: 1;
+}
+
+/* ==================== WATCHLIST ==================== */
+
+#watchlist-box {
+    height: 1fr;
+    border: round $secondary;
+    padding: 0 1;
+}
+
+#watchlist-box > Static {
+    text-style: bold;
+    color: $secondary;
+    height: 1;
+}
+
+/* ==================== TRADES ==================== */
+
+#trades-box {
+    height: 1fr;
+    border: round $warning;
+    padding: 0 1;
+}
+
+#trades-box > Static {
+    text-style: bold;
+    color: $warning;
+    height: 1;
+}
+
+/* ==================== LOG VIEWER ==================== */
+
+#log-viewer {
+    height: 1fr;
+    border: round $accent;
+    padding: 0 1;
+    scrollbar-size: 1 1;
+}
+
+/* ==================== FUNDS BAR ==================== */
+
+#funds-bar {
+    dock: bottom;
+    height: 1;
+    background: $boost;
+    color: $text;
+    padding: 0 1;
+}
+
+/* ==================== DATA TABLES ==================== */
+
+DataTable {
+    height: 1fr;
+}
+
+DataTable > .datatable--header {
+    text-style: bold;
+    background: $primary-background;
+}
+
+DataTable > .datatable--cursor {
+    background: $accent 40%;
+}
