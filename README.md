@@ -1,4 +1,4 @@
-# 🤖 UpstoxATD — Algo Trading Dashboard
+# 🤖 UpstoxATD — Upstox API Terminal Dashboard
 
 An automated trading bot + live terminal dashboard for the Indian stock market, built on the [Upstox API](https://upstox.com/developer/api/).
 
