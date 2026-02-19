@@ -30,7 +30,7 @@ An automated trading bot + live terminal dashboard for the Indian stock market, 
 
 ```
 upstoxATD/
-├── main.py            # Bot entry point — run this
+├── main.py            # Initial entry point — run this
 ├── om.py              # Order Manager (buy/sell/strategy)
 ├── sm.py              # Stock Manager (cache/RSI)
 ├── market_data.py     # Market data API (LTP/candles)
@@ -42,7 +42,7 @@ upstoxATD/
 ├── trades.json        # Trade history
 ├── requirements.txt   # Dependencies
 ├── .env.example       # Environment template
-└── LICENSE            # MIT
+└── LICENSE            # BSL v1.1
 ```
 
 ---
@@ -51,7 +51,7 @@ upstoxATD/
 
 ### 1. Clone
 ```bash
-git clone https://github.com/YOUR_USERNAME/upstoxATD.git
+git clone https://github.com/KrushnXGIT/upstoxATD.git
 cd upstoxATD
 ```
 
